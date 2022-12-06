@@ -39,4 +39,14 @@ html {
       }
     }
   }
+  .price {
+    margin-bottom: 30px;
+    &.hot {
+      color: orangered;
+      font-weight: bold;
+      &::after {
+        content: "🔥";
+      }
+    }
+  }
 }
